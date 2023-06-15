@@ -13,3 +13,5 @@
 !polybar/**
 !sway/
 !sway/**
+!waybar/
+!waybar/**
