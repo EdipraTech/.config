@@ -11,7 +11,7 @@
 !nvim/**
 !polybar/
 !polybar/**
-!sway/
-!sway/**
 !waybar/
 !waybar/**
+!hypr/
+!hypr/**
