@@ -6,7 +6,7 @@
     "spacing": 4, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": ["wlr/workspaces"],
-    "modules-right": ["pulseaudio", "network", "cpu", "temperature", "backlight", "battery", "clock"],
+    "modules-right": ["custom/pipewire", "network", "cpu", "temperature", "backlight", "battery", "clock"],
     // Modules configuration
     // "sway/workspaces": {
     //     "disable-scroll": true,
@@ -23,6 +23,17 @@
     //         "default": ""
     //     }
     // },
+    "custom/pipewire": {
+        "format": "{icon}",
+        "return-type": "json",
+        "signal": 8,
+        "interval": "once",
+        "format-icons": {
+            "mute": "",
+            "default": ["", "", "", ""],
+        },
+        "exec": "pw-volume status"
+    },
     "keyboard-state": {
         "numlock": true,
         "capslock": true,

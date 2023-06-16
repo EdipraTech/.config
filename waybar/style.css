@@ -1,7 +1,7 @@
 * {
     /* `otf-font-awesome` is required to be installed for icons */
     font-family: "CaskaydiaCove Nerd Font Mono", FontAwesome, Roboto, Helvetica, Arial, sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     border-radius: 4px;
 }
 
@@ -89,8 +89,8 @@ button:hover {
 #idle_inhibitor,
 #scratchpad,
 #mpd {
-    padding: 0 5px;
-    margin: 6px 3px;
+    padding: 0 2px;
+    margin: 2px 1px;
     color: #333;
 }
 
@@ -115,7 +115,7 @@ button:hover {
 
 #battery {
     background-color: #f75093;
-    color: #000000;
+    color: #ccc;
 }
 
 #battery.charging, #battery.plugged {
