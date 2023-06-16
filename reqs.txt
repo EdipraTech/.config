@@ -1,1 +1,1 @@
-sudo pacman -S pipewire-pulse wireplumber noto-fonts-emoji hyprland waybar nvim nano
+sudo pacman -S pipewire-pulse wireplumber noto-fonts-emoji hyprland waybar nvim nano ntp
