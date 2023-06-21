@@ -23,6 +23,11 @@
     //         "default": ""
     //     }
     // },
+    "wireplumber": {
+        "format": "{volume}%",
+        "format-muted": ""
+    },
+
     "custom/pipewire": {
         "format": "{icon}",
         "return-type": "json",
