@@ -6,7 +6,7 @@
     "spacing": 4, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": ["wlr/workspaces"],
-    "modules-right": ["custom/pipewire", "network", "cpu", "temperature", "backlight", "battery", "clock"],
+    "modules-right": ["custom/pipewire", "pulseaudio","network", "cpu", "temperature", "backlight", "battery", "clock"],
     // Modules configuration
     // "sway/workspaces": {
     //     "disable-scroll": true,
@@ -148,7 +148,7 @@
         "format-bluetooth-muted": " {icon} {format_source}",
         "format-muted": " {format_source}",
         "format-source": "{volume}% ",
-        "format-source-muted": "",
+        "format-source-muted": "MUTED ",
         "format-icons": {
             "headphone": "",
             "hands-free": "",
