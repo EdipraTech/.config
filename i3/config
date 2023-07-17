@@ -215,3 +215,5 @@ bindsym $mod+Shift+period exec systemctl suspend
 bindsym $mod+p move workspace to output right
 bindsym $mod+o move workspace to output left
 
+bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5%
+bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
