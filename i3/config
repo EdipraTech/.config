@@ -193,7 +193,7 @@ for_window [window_type="menu"]                         floating enable
 
 # GAPS and BORDERS
 gaps inner 4px
-gaps outer 2px
+gaps outer 4px
 
 # corner-radius=5
 default_border none
