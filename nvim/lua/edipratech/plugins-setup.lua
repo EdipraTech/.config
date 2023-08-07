@@ -103,6 +103,9 @@ return packer.startup(function(use)
     use ("jose-elias-alvarez/null-ls.nvim")
     use("MunifTanjim/prettier.nvim")
 
+    -- HTML --
+    use("windwp/nvim-ts-autotag")
+
     if packer_bootstrap then
         require("packer").sync()
     end
