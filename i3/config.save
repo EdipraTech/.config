@@ -32,7 +32,8 @@ exec --no-startup-id dex-autostart --autostart --environment i3
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 exec --no-startup-id nm-applet
-exec_always nitrogen --set-auto /home/edipratech/Pictures/black.jpg
+# exec --no-startup-id nitrogen #--set-auto /home/edipratech/Pictures/kali.jpg
+exec_always --no-startup-id sleep 2 && nitrogen --set-auto /home/edipratech/Pictures/kali.jpg --head=0 && nitrogen --set-auto /home/edipratech/Pictures/kali.jpg --head=1
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec_always --no-startup-id "picom --config ~/.config/picom/picom.conf"
 
