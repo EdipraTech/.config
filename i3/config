@@ -113,6 +113,7 @@ bindsym $mod+a focus parent
 
 # lock screen
 bindsym $mod+Shift+m exec /home/.bin/scripts/lock.sh
+#bindsym $mod+shift+m exec i3lock -t -i ~/Pictures/kali.jpg
 # exec $HOME/.bin/scripts/lock.sh
 
 # focus the child container

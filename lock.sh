@@ -1,4 +1,4 @@
-#!/bin/bash
+# stored in /home/.bin/scripts
 ICON=$HOME/Pictures/lock.png
 TMPBG=/tmp/screen.png
 scrot /tmp/screen.png
