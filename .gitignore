@@ -18,3 +18,5 @@
 !neofetch/
 !neofetch/**
 !reqs.txt
+!terminator/
+!terminator/**
