@@ -9,7 +9,7 @@
 [profiles]
   [[default]]
     background_darkness = 0.85
-    background_type = image
+    background_type = transparent
     background_image = /home/edipratech/Pictures/kali.jpg
     cursor_fg_color = "#000000"
     cursor_bg_color = "#aaaaaa"
