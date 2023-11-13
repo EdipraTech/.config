@@ -2,9 +2,9 @@
   focus = mouse
   disable_mouse_paste = True
 [keybindings]
-  split_horiz = <Primary>x
-  split_vert = <Primary>y
-  close_term = <Primary>w
+  split_horiz = <Alt>x
+  split_vert = <Alt>y
+  close_term = <Alt>w
   close_window = <Primary><Shift>q
 [profiles]
   [[default]]
