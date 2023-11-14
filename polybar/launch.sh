@@ -6,4 +6,13 @@
 # Otherwise you can use the nuclear option:
 pkill polybar
 
-polybar --reload example &
+#polybar --reload example &
+
+
+if type "xrandr"; then
+  for m in $(xrandr --query | grep " connected" | cut -d" " -f1); do
+    MONITOR=$m polybar --reload example &
+  done
+else
+  polybar --reload example &
+fi
