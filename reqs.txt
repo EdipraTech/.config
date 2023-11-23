@@ -1,1 +1,7 @@
-pipewire-pulse wireplumber noto-fonts-emoji i3 polybar nvim nano ntp ttf-font-awesome terminator libpolkit-agent-1-0 scrot imagemagick i3lock dbus 
+sudo apt install pipewire-pulse wireplumber i3 polybar nvim nano ntp terminator scrot imagemagick i3lock dbus nitrogen picom zsh
+
+
+
+sh <(curl -L https://nixos.org/nix/install) --daemon          
+nix-env -i neovim neofetch-unstable
+

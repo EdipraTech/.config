@@ -112,7 +112,7 @@ bindsym $mod+space focus mode_toggle
 bindsym $mod+a focus parent
 
 # lock screen
-bindsym $mod+Shift+m exec /home/.bin/scripts/lock.sh
+bindsym $mod+Shift+m exec ~/.config/.bin/lock.sh
 #bindsym $mod+shift+m exec i3lock -t -i ~/Pictures/kali.jpg
 # exec $HOME/.bin/scripts/lock.sh
 
