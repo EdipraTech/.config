@@ -4,7 +4,7 @@
 [keybindings]
   split_horiz = <Alt>x
   split_vert = <Alt>y
-  close_term = <Alt>w
+  close_term = <Shift><Alt>w
   close_window = <Primary><Shift>q
 [profiles]
   [[default]]
@@ -17,7 +17,11 @@
     foreground_color = "#c061cb"
     show_titlebar = False
     scrollbar_position = hidden
+<<<<<<< HEAD
     palette = "#2e3436:#cc0000:#3584e4:#1c71d8:#3465a4:#75507b:#06989a:#d3d7cf:#555753:#ef2929:#8ae234:#f8e45c:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
+=======
+    palette = "#2e3436:#cc0000:#3584e4:#62a0ea:#3465a4:#75507b:#06989a:#d3d7cf:#555753:#ef2929:#8ae234:#f8e45c:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
+>>>>>>> refs/remotes/origin/main
 [layouts]
   [[default]]
     [[[window0]]]
