@@ -8,6 +8,10 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
+set $mm DP-1
+set $lm DP-2
+set $rm DP-3
+
 set $mod Mod1
 
 # Font for window titles. Will also be used by the bar unless a different font
@@ -31,6 +35,7 @@ exec --no-startup-id dex-autostart --autostart --environment i3
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
+# exec_always --no-startup-id ~/Documents/Screen/screen.sh
 exec --no-startup-id nm-applet
 exec_always nitrogen --restore
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
@@ -42,6 +47,8 @@ bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5% && $refresh_i3status
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
+
+bindsym $mod+F9  exec ./toggle_sink.sh
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
