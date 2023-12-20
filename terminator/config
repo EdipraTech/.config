@@ -4,7 +4,7 @@
 [keybindings]
   split_horiz = <Alt>x
   split_vert = <Alt>y
-  close_term = <Alt>w
+  close_term = <Shift><Alt>w
   close_window = <Primary><Shift>q
 [profiles]
   [[default]]
