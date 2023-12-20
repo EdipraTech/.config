@@ -20,4 +20,4 @@
 !reqs.txt
 !terminator/
 !terminator/**
-!.bin/lock.sh
+!\.bin/lock.sh
