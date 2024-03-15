@@ -21,3 +21,4 @@
 !terminator/
 !terminator/**
 !\.bin/lock.sh
+!debian.sh
