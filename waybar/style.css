@@ -1,13 +1,13 @@
 * {
     /* `otf-font-awesome` is required to be installed for icons */
     font-family: "CaskaydiaCove Nerd Font Mono", FontAwesome, Roboto, Helvetica, Arial, sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     border-radius: 4px;
 }
 
 window#waybar {
     background-color: rgba(43, 48, 59, 0.9);
-    color: #ccc;
+    color: #0076ed;
     transition-duration: .5s;
     border-radius: 0;
 }
@@ -50,8 +50,8 @@ button:hover {
 
 #workspaces button {
     padding: 0 0.4em;
-    background-color: #f75093;
-    color: #ccc;
+    background-color: transparent;
+    color: #0076ed;
     border-radius: 5px;
     margin: 2px;
 }
@@ -92,7 +92,7 @@ button:hover {
 #mpd {
     padding: 0 2px;
     margin: 2px 1px;
-    color: #333;
+    color: #0076ed;
 }
 
 #window,
@@ -111,29 +111,29 @@ button:hover {
 }
 
 #clock {
-    background-color: #f75093;
+    background-color: transparent;
 }
 
 #battery {
-    background-color: #f75093;
-    color: #ccc;
+    background-color: transparent;
+    color: #0076ed;
 }
 
 #battery.charging, #battery.plugged {
-    color: #ccc;
-    background-color: #f75093;
+    color: #0076ed;
+    background-color: transparent;
 }
 
 @keyframes blink {
     to {
         background-color: #ffffff;
-        color: #000000;
+        color: #0076ed;
     }
 }
 
 #battery.critical:not(.charging) {
-    background-color: #f75093;
-    color: #ccc;
+    background-color: transparent;
+    color: #0076ed;
     animation-name: blink;
     animation-duration: 0.5s;
     animation-timing-function: linear;
@@ -146,43 +146,43 @@ label:focus {
 }
 
 #cpu {
-    background-color: #f75093;
-    color: #000000;
+    background-color: transparent;
+    color: #0076ed;
 }
 
 #memory {
-    background-color: #f75093;
+    background-color: transparent;
 }
 
 #disk {
-    background-color: #f75093;
+    background-color: transparent;
 }
 
 #backlight {
-    background-color: #f75093;
+    background-color: transparent;
 }
 
 #network {
-    background-color: #f75093;
+    background-color: transparent;
 }
 
 #network.disconnected {
-    background-color: #f75093;
+    background-color: transparent;
 }
 
 #pulseaudio {
-    background-color: #f75093;
-    color: #000000;
+    background-color: transparent;
+    color: #0076ed;
 }
 
 #pulseaudio.muted {
-    background-color: #f75093;
-    color: #2a5c45;
+    background-color: transparent;
+    color: #0076ed;
 }
 
 #wireplumber {
-    background-color: #f75093;
-    color: #000000;
+    background-color: transparent;
+    color: #0076ed;
 }
 
 #wireplumber.muted {
@@ -191,7 +191,7 @@ label:focus {
 
 #custom-media {
     background-color: #66cc99;
-    color: #2a5c45;
+    color: #0076ed;
     min-width: 100px;
 }
 
@@ -230,12 +230,12 @@ label:focus {
 
 #idle_inhibitor.activated {
     background-color: #ecf0f1;
-    color: #2d3436;
+    color: #0076ed;
 }
 
 #mpd {
     background-color: #f75093;
-    color: #2a5c45;
+    color: #0076ed;
 }
 
 #mpd.disconnected {

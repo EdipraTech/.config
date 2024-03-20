@@ -3,10 +3,10 @@
     // "position": "bottom", // Waybar position (top|bottom|left|right)
     "height": 30, // Waybar height (to be removed for auto height)
     // "width": 1280, // Waybar width
-    "spacing": 4, // Gaps between modules (4px)
+    "spacing": 6, // Gaps between modules (4px)
     // Choose the order of the modules
-    "modules-left": ["wlr/workspaces"],
-    "modules-right": ["custom/pipewire", "pulseaudio","network", "cpu", "temperature", "backlight", "battery", "clock"],
+    "modules-left": ["hyprland/workspaces"],
+    "modules-right": ["custom/pipewire", "pulseaudio","network", "cpu",  "memory", "temperature", "backlight", "battery", "clock"],
     // Modules configuration
     // "sway/workspaces": {
     //     "disable-scroll": true,
@@ -34,8 +34,8 @@
         "signal": 8,
         "interval": "once",
         "format-icons": {
-            "mute": "",
-            "default": ["", "", "", ""],
+            "mute": "",
+            "default": [""],
         },
         "exec": "pw-volume status"
     },
@@ -127,7 +127,7 @@
             "critical": 15
         },
         "format": "{capacity}% {icon}",
-        "format-charging": "{capacity}% ",
+        "format-charging": "{capacity}% ",
         "format-plugged": "{capacity}% ",
         "format-alt": "{time} {icon}",
         // "format-good": "", // An empty format will hide the module
@@ -136,6 +136,11 @@
     },
     "battery#bat2": {
         "bat": "BAT2"
+    },
+    "memory": {
+	"interval": 30,
+	"format": "{}% ",
+	"max-length": 10
     },
     "network": {
         // "interface": "wlp2*", // (Optional) To force the use of this interface
