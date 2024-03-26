@@ -39,7 +39,7 @@ exec --no-startup-id dex-autostart --autostart --environment i3
 exec --no-startup-id nm-applet
 exec_always nitrogen --restore
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
-# exec_always --no-startup-id "picom --config ~/.config/picom/picom.conf"
+exec_always --no-startup-id  --experimental-backend "picom --config ~/.config/picom/picom.conf"
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
@@ -203,10 +203,10 @@ for_window [window_type="dialog"]                       floating enable
 for_window [window_type="menu"]                         floating enable
 
 # GAPS and BORDERS
-gaps inner 1px
-gaps outer 1px
+gaps inner 5px
+gaps outer 5px
 
-# corner-radius=5
+#corner-radius=5
 default_border none
 default_floating_border none
 hide_edge_borders both
