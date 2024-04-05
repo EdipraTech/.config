@@ -82,6 +82,7 @@ button:hover {
 #temperature,
 #backlight,
 #network,
+#custom-pipewire,
 #pulseaudio,
 #wireplumber,
 #custom-media,
@@ -91,7 +92,7 @@ button:hover {
 #scratchpad,
 #mpd {
     padding: 0 2px;
-    margin: 2px 1px;
+    margin: 2px 3px;
     color: #0076ed;
 }
 
