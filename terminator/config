@@ -12,7 +12,7 @@
     foreground_color = "#9c66b5"
     show_titlebar = False
     scrollbar_position = hidden
-    palette = "#000000:#cd0000:#3465a4:#3465a4:#3465a4:#cd00cd:#00cdcd:#faebd7:#404040:#ff0000:#00ff00:#ffff00:#0000ff:#ff00ff:#00ffff:#ffffff"
+    palette = "#000000:#cd0000:#3465a4:#3465a4:#3465a4:#cd00cd:#00cdcd:#faebd7:#404040:#ff0000:#00ff00:#ffff00:#9c66b5:#ff00ff:#00ffff:#ffffff"
     bold_is_bright = True
 [layouts]
   [[default]]
