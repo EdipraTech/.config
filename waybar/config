@@ -9,6 +9,7 @@
     "modules-right": ["custom/pipewire", "pulseaudio","network", "cpu",  "memory", "temperature", "backlight", "battery", "clock"],
     // Modules configuration
     // "sway/workspaces": {
+    //	"spacing": 4,
     //     "disable-scroll": true,
     //     "all-outputs": true,
     //     "format": "{name}: {icon}",
