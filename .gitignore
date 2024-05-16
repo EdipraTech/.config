@@ -22,3 +22,6 @@
 !terminator/**
 !\.bin/lock.sh
 !debian.sh
+!/wofi/
+!/wofi/*
+!/wofi/**
